@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- HTML5 Syntax -->
+
+<html>
+    <head>
+        <title>HTML Demo</title>
+        <meta charset="utf-8"> <!-- Umlaute -->
+        <link rel="stylesheet" href="mystyles.css">
+        <script src="functions.js"></script>
+    </head>
+    <body>
+        <!-- Inhalt -->
+        <span>Hallo Welt!</span>
+
+        <h1>Überschrift der Grösse 1</h1>
+        <h1>Überschrift der Grösse 1</h1>
+        <h6>Überschrift der Grösse 6</h6>
+        
+        <p>
+            1. Absatz<br>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, ...
+        </p>
+
+        <p>
+            zweiter Absatz
+        </p>
+
+        <!-- block versus inline -->
+        vor dem DIV
+        <div>
+            HTML ohne CSS sieht nicht 
+            <span>soo gut</span> aus!
+        </div>
+        hinter dem DIV
+
+        <p>
+            Schriftdirektiven:<br>
+            <i>kursiv</i><br>
+            <b>fettgedruckter Text</b><br>
+            Formel: a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
+        </p>
+
+        <p>
+            Schriftgrösse mit CSS: 
+            <hr>
+            <span style="font-size: 30px;">30px groß</span>
+        </p>
+
+        <h3>Mein toller Java-Code</h3>
+        <pre>
+            public static char emulateLinux() {
+                String[] settings = { "/", "Linux" };
+                return emulateOS(settings);
+            }
+        
+        </pre>
+
+        <fieldset>
+            <legend>Java-Code</legend>
+            Lorem ipsum ...
+        </fieldset>
+
+        <h3>Listen</h3>
+
+        <ul style="list-style-type: square">
+            <li>Audi</li>
+            <li>BMW</li>
+        </ul>
+
+        <ol type="1">
+            <li>FC Bayern</li>
+            <li>Manchester City</li>
+        </ol>
+
+    </body>
+</html>
+<script>
+    <!-- wichtig: Ausführung nach dem Laden des Dokuments -->
+    hallo();
+</script>
